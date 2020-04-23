@@ -66,3 +66,24 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### Webpack
+Install webpack in devDependencies:
+`npm i -D webpack webpack-cli`
+
+Install babel in devDependencies:
+`npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev`
+
+Run on memory Servor server
+`npx serve dist --reload`
+
+Install loaders for css in devDependencies:
+`npm i -D style-loader css-loader`
+
+Install plugins in devDependencies:
+`npm i html-webpack-plugin --save-dev`
+`npm i clean-webpack-plugin -save-dev`
+
+Install Webpack-dev server to run as a script with `run npm start`:
+`npm i webpack-dev-server --save-dev`
